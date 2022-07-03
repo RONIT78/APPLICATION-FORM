@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* outline: none; */
+    font-family: sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: linear-gradient(to right bottom, #E313AD, #8713E3);
+}
+
+.form-section {
+    width: 350px;
+    background: #fff;
+    border-radius: 5px;
+    text-align: center;
+    padding: 50px 35px 20px 35px;
+}
+
+.form-section header {
+    font-size: 35px;
+    font-weight: 700;
+    margin: 0 0 30px 0;
+}
+
+.form-section .form {
+    width: 100%;
+    overflow: hidden;
+}
+
+.form form {
+    display: flex;
+    width: 400%;
+}
+
+.form form .page {
+    width: 25%;
+}
+
+.form form .page .title {
+    text-align: left;
+    font-size: 20px;
+    font-weight: 550;
+}
+
+.form form .page .field {
+    height: 45px;
+    width: 330px;
+    margin: 45px 0;
+    position: relative;
+    display: flex;
+}
+
+.form form .page .field .label {
+    position: absolute;
+    top: -30px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.form form .page .field input {
+    display: block;
+    height: 100%;
+    width: 100%;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}
+
+.form form .page .field button {
+    width: 100%;
+    height: calc(100%+5px);
+    margin-top: -20px;
+    border: none;
+    background-color: #E313AD;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+form .page .field select {
+    width: 100%;
+    padding-left: 10px;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.form form .page .field .btns button {
+    margin-top: -20px!important;
+}
+
+form .page .btns button.prev {
+    margin-right: 3px;
+    font-size: 17px;
+}
+
+form .page .btns button.next {
+    margin-left: 3px;
+}
+
+.field.success input {
+    border-color: #2ecc71;
+}
+
+.field.error input {
+    border-color: #e74c3c;
+}
